@@ -11,7 +11,7 @@ from openai import OpenAI
 
 st.set_page_config(page_title="AI Web Agent", layout="centered")
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="API KEY")
 
 MEMORY_FILE = "memory.json"
 
